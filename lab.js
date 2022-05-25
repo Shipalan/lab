@@ -80,7 +80,8 @@ if (temperature > 80 && rain === false){
 */
 
 //CODE HERE
-
+for (let i = 0; i < 10; i++)
+console.log('Hello');
 ////////// PROBLEM 6 //////////
 
 /*
@@ -88,6 +89,8 @@ if (temperature > 80 && rain === false){
 */
 
 //CODE HERE
+for (let i = 1; i < 11; i++)
+console.log(i);
 
 ////////// PROBLEM 7 //////////
 
@@ -96,7 +99,8 @@ if (temperature > 80 && rain === false){
 */
 
 //CODE HERE
-
+for (let i = 10; i > 0; i--)
+console.log(i);
 
 ////////// PROBLEM 8 //////////
 
