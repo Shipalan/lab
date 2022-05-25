@@ -112,7 +112,8 @@ let passingScore = 7;
 */
 
 //CODE HERE
-
+for (let i = score; i < 7; i++)
+console.log('Your score is not high enough');
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -123,7 +124,15 @@ let passingScore = 7;
 */
 
 //CODE HERE
+let changeMyMind = true;
 
+if (changeMyMind === true){
+  changeMyMind = false;
+}else {
+  changeMyMind = true;
+}
+
+console.log(changeMyMind);
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
