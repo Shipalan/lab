@@ -60,6 +60,16 @@ if (temperature > 80 && rain === true) {
   console.log('Wear a t-shirt and take an umbrella');
 } else if( temperature > 60 && temperature < 80 && rain === true) {
   console.log('Wear a rain jacket');
+} else if(temperature < 60 && rain === true) {
+  console.log('Wear a jacket and carry an umbrella');
+}
+
+if (temperature > 80 && rain === false){
+  console.log('Wear a t-shirt, no umbrella needed');
+} else if(temperature > 60 && temperature < 80 && rain === false){
+  console.log('Wear a hoodie and sweats');
+} else if(temperature < 60 && rain === false){
+  console.log('Wear a thick jacket and pants');
 }
 
 
